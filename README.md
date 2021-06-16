@@ -18,6 +18,9 @@ API - http://localhost:3000/amostra/api/
 Documentação swagger - http://localhost:3000/amostra/docs/
 
 ## Como utilizar api
+ - API usa Basic Auth :: para requisições necessário passar:
+	- Username: admin
+	- Password: admin
 
  - Analisar uma amostra: faça uma requisição **POST** para: `http://localhost:3000/amostra/api/toxicologica`
 

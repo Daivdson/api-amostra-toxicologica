@@ -1,9 +1,5 @@
 
 const toxicologica = (obj) => {
-    if(obj.thc >= 0.05 ) {
-        console.log('verdadeiro')
-    }
-
     if(notaCorte(obj)) {
         return Object.assign(obj ,{resultado: 'positivo'})
     } else {
@@ -23,7 +19,6 @@ const notaCorte = (dados) => {
         && analiseCocaina(dados)) {
             return true;
         } else {
-            console.log('falso')
             return false;
         }
 }
