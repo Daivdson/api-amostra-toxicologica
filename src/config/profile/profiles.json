@@ -1,0 +1,10 @@
+{
+  "desenvolvimento": {
+    "ambiente": "desenvolvimento",
+    "path": "/amostra/api",
+    "porta": 3000,
+    "conexaoBanco":{
+      "urlConexao": "mongodb://usr_amostra:usr_amostra@localhost:27017/amostra?authSource=admin"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+\.idea/
+node_modules/
+.vscode/
+.DS_Store
+/dist/
+/pally/
+/html/
+playground/
+test/resultado/
+log/
+junit.xml
+test/resultado/
+
+# npmrc para server camara
+.npmrc
+
+globalConfig.json

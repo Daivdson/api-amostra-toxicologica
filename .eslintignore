@@ -1,0 +1,7 @@
+node_modules/**
+test/resultado/**
+public/**
+dist/**
+plugins/**
+build/**
+test/**
